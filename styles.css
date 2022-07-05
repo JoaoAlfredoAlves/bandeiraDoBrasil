@@ -1,0 +1,104 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset - Browser */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root */
+
+:root {
+    --verde: #009c3b;
+    --amarelo: #ffdf00;
+    --azul: #002776;
+    --branco: #fff;
+
+    --poppins: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-image: radial-gradient(circle at 79.88% 114.09%, #00ff62 0, #00dd55 25%, #03d353 50%, #01b847 75%, #009c3b 100%);
+}
+
+h1 {
+    font-family: var(--poppins);
+    color: var(--branco);
+    font-size: 2rem;
+    text-shadow: -2px 1px 3px rgba(43, 43, 43, 0.438);
+    font-weight: 400;
+}
+
+.retangulo {
+    width: 600px;
+    height: 350px;
+    margin-bottom: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #009c3b;   
+    box-shadow: 0px 0px 4px rgb(43, 43, 43);
+
+    border-radius: 3px;
+
+    position: relative;
+}
+
+.triangulo1 {
+    border-left: 275px solid transparent;
+    border-right: 275px solid transparent;
+    border-bottom: 160px solid var(--amarelo);
+
+    position: absolute;
+    top: 0;
+
+    margin-top: 15px;
+}
+
+.triangulo2 {
+    border-left: 275px solid transparent;
+    border-right: 275px solid transparent;
+    border-top: 160px solid var(--amarelo);
+
+    position: absolute;
+    bottom: 0;
+
+    margin-bottom: 15px;
+}
+
+.circulo {
+    position: absolute;
+
+    width: 220px;
+    height: 220px;
+    background-color: var(--azul);
+
+    border-radius: 50%;
+
+    overflow: hidden;
+}
+
+.faixa {
+    position: absolute;
+
+    width: 450px;
+    height: 450px;
+    border: 25px solid var(--branco);
+    border-radius: 50%;
+    top: 65px;
+    left: -160px;   
+}
