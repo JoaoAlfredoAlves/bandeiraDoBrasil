@@ -30,7 +30,7 @@ body {
     align-items: center;
     flex-direction: column;
 
-    background-image: radial-gradient(circle at 79.88% 114.09%, #00ff62 0, #00dd55 25%, #03d353 50%, #01b847 75%, #009c3b 100%);
+    background-image: radial-gradient(circle at 79.88% 114.09%, #00ff62 0, #00dd55 25%, #03d353 50%, #01a13f 75%, #008533 100%);
 }
 
 h1 {
@@ -51,7 +51,7 @@ h1 {
     align-items: center;
 
     background-color: #009c3b;   
-    box-shadow: 0px 0px 4px rgb(43, 43, 43);
+    box-shadow: 0px 0px 6px rgb(43, 43, 43);
 
     border-radius: 3px;
 
@@ -87,6 +87,7 @@ h1 {
     height: 220px;
     background-color: var(--azul);
 
+    border: 2px solid var(--azul);
     border-radius: 50%;
 
     overflow: hidden;
